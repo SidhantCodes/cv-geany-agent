@@ -21,6 +21,7 @@ dependencies = [
     "filelock==3.18.0",
     "filetype==1.2.0",
     "fitz==0.0.1.dev2",
+    "frontend>=0.0.3",
     "google-ai-generativelanguage==0.6.18",
     "google-api-core==2.25.1",
     "google-auth==2.40.3",
