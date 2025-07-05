@@ -102,6 +102,7 @@ dependencies = [
     { name = "sqlalchemy" },
     { name = "starlette" },
     { name = "tenacity" },
+    { name = "tools" },
     { name = "traits" },
     { name = "typing-extensions" },
     { name = "typing-inspection" },
@@ -195,6 +196,7 @@ requires-dist = [
     { name = "sqlalchemy", specifier = "==2.0.41" },
     { name = "starlette", specifier = "==0.46.2" },
     { name = "tenacity", specifier = "==9.1.2" },
+    { name = "tools", specifier = ">=1.0.2" },
     { name = "traits", specifier = "==7.0.2" },
     { name = "typing-extensions", specifier = "==4.14.0" },
     { name = "typing-inspection", specifier = "==0.4.1" },
@@ -1700,6 +1702,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/0a/d4/2b0cd0fe285e14b36db076e78c93766ff1d529d70408bd1d2a5a84f1d929/tenacity-9.1.2.tar.gz", hash = "sha256:1169d376c297e7de388d18b4481760d478b0e99a777cad3a9c86e556f4b697cb", size = 48036, upload-time = "2025-04-02T08:25:09.966Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e5/30/643397144bfbfec6f6ef821f36f33e57d35946c44a2352d3c9f0ae847619/tenacity-9.1.2-py3-none-any.whl", hash = "sha256:f77bf36710d8b73a50b2dd155c97b870017ad21afe6ab300326b0371b3b05138", size = 28248, upload-time = "2025-04-02T08:25:07.678Z" },
+]
+
+[[package]]
+name = "tools"
+version = "1.0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/1c/9921859cb649253d64b2edca5cf70646a835078d08268dd1ded77a8fd25a/tools-1.0.2.tar.gz", hash = "sha256:2493d6cb136a78fcf2dae4c36af0bd35fee066e020dcb5f6a0a4f5b0ec435652", size = 31208, upload-time = "2025-05-03T20:18:17.52Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/24/9b/467ddfc2ccb3f2ae127bfc0ba3db73152862a053a5e00ebc38dadb8e2425/tools-1.0.2-py3-none-any.whl", hash = "sha256:8b2e6d1f526b04712dcb5c3655a87cc9e034d573758e36b968d81adaee73463e", size = 37415, upload-time = "2025-05-03T20:18:16.286Z" },
 ]
 
 [[package]]

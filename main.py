@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 # FastAPI Application
 app = FastAPI(
-    title="Resume to Portfolio AI Agent",
+    title="CVGeany Server",
     description="AI-powered resume parser that extracts structured portfolio data",
     version="1.0.0"
 )
